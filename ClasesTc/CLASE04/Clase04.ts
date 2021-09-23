@@ -19,3 +19,22 @@ for (let index = 0; index < lista.length; index++) {
     
 }
 
+
+grupo.forEach(element => {
+    console.log(element)
+});
+
+
+let tuple:[number,string]=[1,"dairibeth redondo"]
+console.log(tuple[1])
+
+let tuple2:[number,string,string,number]=[1,"delis","rojas",44]
+console.log(tuple2[1])
+
+let miVariable:any = "Saludos"
+console.log(miVariable)
+
+
+
+miVariable = 7406;
+console.log(miVariable)
