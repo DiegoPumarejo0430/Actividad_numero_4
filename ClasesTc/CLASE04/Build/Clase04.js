@@ -24,3 +24,10 @@ console.log(tuple2[1]);
 let miVariable = "Saludos";
 console.log(miVariable);
 miVariable = 7406;
+
+const persona1 = {
+    cedula: 1066000963,
+    nombre: "josue",
+    apellido: "Martinez",
+    edad: 52
+};
