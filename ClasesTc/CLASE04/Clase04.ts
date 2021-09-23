@@ -38,3 +38,18 @@ console.log(miVariable)
 
 miVariable = 7406;
 console.log(miVariable)
+
+interface persona{
+    cedula: number;
+    nombre: string;
+    apellido: string;
+    edad: number
+}
+
+const persona1:persona = {
+    cedula: 1066000963,
+    nombre: "josue",
+    apellido: "Martinez",
+    edad: 52
+
+}
