@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>ejreccios typescrit</title>
+</head>
+<body>
+
+
+<h1>ejercicio 1 en typescript </h1>
+<h3>al inspeccionar se puede ver lo compilado... DEL ARCHIVO TYPESCRIPT</h1>
+    <big>ctrl+shift+i</big>
+    <hr>
+<h2>Tipos de variables</h2>
+    <p class="codets">
+    console.log("hello word hp"); <br>
+let numero:number = 765;          <br>
+let nombre:string ="Diego";       <br>
+let apellido: string="pumarejo"   <br>
+    </p>
+<h2>mensajes y mostrar variebles </h2>
+
+<p class="codets">
+console.log("numero");<br>
+
+console.log (`el numero es${numero}`);<br>
+console.log (`el nombre es${nombre}`);<br>
+</p>
+<hr>
+<h2>arrays </h2>
+<p class="codets">
+let grupo: string[]=["deilis rojas ", "dairibeth redondo","josue martinez", "diego pumarejo"];<br>
+
+let lista: string[]=["Riohacha ", "Maicao","Dibulla"];<br>
+console.log(lista);<br>
+console.log(grupo);<br>
+</p>
+
+<h2>formas de recorrer el array y siclos repetitivos</h2>
+<p class="codets">
+for (let index = 0; index < lista.length; index++) {<br>
+    console.log(lista[index]);<br>
+    </p>
+}<br><br>
+<p class="codets">
+
+    grupo.forEach(element => {<br>
+        console.log(element) <br>
+    });
+</p>
+<hr>
+<br>
+<h2>Tuplas</h2>
+<p class="codets">
+let tuple:[number,string]=[1,"dairibeth redondo"] <br>
+console.log(tuple[1]) 
+</p>
+
+<p class="codets">
+let tuple2:[number,string,string,number]=[1,"delis","rojas",44]  <br>
+console.log(tuple2[1]) 
+ </p> 
+
+<hr>
+<h2>tipo any</h2>
+
+<p class="codets">
+let miVariable:any = "Saludos" <br>
+console.log(miVariable) 
+</p>  
+<p class="codets">
+miVariable = 7406;         <br>
+console.log(miVariable)   <br>
+<b>//solo usar cuando sea necesario y ultima opcion//</b>
+
+</p>  
+
+<br>
+<hr>
+<h2>objetos</h2>
+<p class="codets">
+interface persona{  <br>
+    cedula: number;  <br>
+    nombre: string;  <br>
+    apellido: string; <br>
+    edad: number     <br>
+}
+
+</p>
+
+<p class="codets">
+    const persona1:persona = { <br>
+        cedula: 1066000963,  <br>
+        nombre: "josue",      <br>
+        apellido: "Martinez", <br>
+        edad: 52              <br>
+    
+    }
+</p>
+}
+
+
+
+
+    <script src="../CLASE04/Build/Clase04.js"></script>
+</body>
+</html>
