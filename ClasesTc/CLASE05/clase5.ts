@@ -52,3 +52,28 @@ return x
 }
    
 }
+
+
+}
+let suma01=sumar2(2)
+let suma02=sumar2(2,3)
+console.log(`el resultado de la suma 1 es =${suma01}`)
+console.log(`el resultado de la suma 2 es =${suma02}`)
+
+function calcularEdad():number{
+return 18
+
+}
+
+let mostrarPersona=function(nombre: string, Edad: number =calcularEdad()) {
+
+    console.info(`nombre : ${nombre} - Edad : ${Edad}`)
+
+
+
+    if(Edad==18){
+
+        console.warn(`la edad no fue enviada`)
+    }
+    
+}
